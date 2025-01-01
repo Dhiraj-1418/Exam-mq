@@ -1,0 +1,125 @@
+
+@media (max-width: 1200px) {
+    .home {
+     height: 100vh;
+      width: 100vw;
+      background-color: rgb(136, 136, 136);
+    }
+    .home-container {
+      height: 100%;
+      width: 80%;
+  
+      margin: auto;
+    }
+    .home .home-container .testimonial {
+      display: flex;
+      justify-content: space-between;
+     
+    }
+    .home .home-container .testimonial .test {
+      height: auto;
+      width: 50%;
+      background-color: aliceblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+    }
+    .home .home-container .testimonial .test .t_container {
+      height: 880px;
+      width: 80%;
+    }
+  }
+@media (max-width: 992px) {
+  .home {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(136, 136, 136);
+  }
+  .home-container {
+    height: 100%;
+    width: 80%;
+
+    margin: auto;
+  }
+  .home .home-container .testimonial {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .home .home-container .testimonial .test {
+    height: auto;
+    width: 50%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .home .home-container .testimonial .test .t_container {
+    height: auto;
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+     height: 100vh;
+    width: 100vw;
+    background-color: rgb(136, 136, 136);
+  }
+  .home-container {
+    height: 100%;
+    width: 100%;
+
+    margin: auto;
+  }
+  .home .home-container .testimonial {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .home .home-container .testimonial .test {
+    height: auto;
+    width: 50%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .home .home-container .testimonial .test .t_container {
+    height: auto;
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .home {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(136, 136, 136);
+  }
+  .home-container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .home .home-container .testimonial {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .home .home-container .testimonial .test {
+    height: auto;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .home .home-container .testimonial .test .t_container {
+    height: 80%;
+    width: 80%;
+  }
+}
