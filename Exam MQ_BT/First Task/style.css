@@ -35,7 +35,7 @@
   justify-content: space-between;
 }
 .home .home-container .testimonial .test {
-  height: auto;
+  height: 600px;
   /* width: 32%; */
   background-color: aliceblue;
   display: flex;
@@ -44,7 +44,7 @@
   border-radius: 30px;
 }
 .home .home-container .testimonial .test .t_container {
-  height: 550px;
+  height: 600px;
   width: 80%;
 }
 .home .home-container .testimonial .test .t_container .t_p p {
